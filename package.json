@@ -1,0 +1,9 @@
+{
+  "name": "tailer",
+  "version": "0.0.1",
+  "description": "Stream the files onto a webpage",
+  "dependencies": {
+    "express": "^4.9.5",
+    "socket.io": "^1.1.0"
+  }
+}
