@@ -22,6 +22,7 @@
     var socket = io();
     socket.on('newline', function(msg){
       $('#messages').append($('<li>').text(msg));
+      $('html, body').finish()
       $("html, body").animate({ scrollTop: $(document).height() }, "slow");
     });
   </script>
